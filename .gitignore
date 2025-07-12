@@ -12,7 +12,7 @@ venv/
 env/
 ENV/
 .venv.bak/
-*.env
+.env
 *.env.*
 
 # Editor/IDE files
