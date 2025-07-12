@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+.venv.bak/
+*.env
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+coverage.xml
+.cache/
+.tox/
+.pytest_cache/
+
+# mypy / Ruff / pylint / pyright / bandit
+.mypy_cache/
+.pytype/
+.pyright/
+.bandit/
+ruff_cache/
+
+# Logs & local runtime
+*.log
+*.db
+*.sqlite3
+*.pid
+
+# FastAPI OpenAPI docs (if generated)
+openapi.json
+docs.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Pydantic compiled models (if used)
+*.pydantic/
+
+# Git hooks (if using pre-commit)
+.pre-commit-config.yaml
+.pre-commit/
